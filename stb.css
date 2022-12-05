@@ -1,0 +1,43 @@
+.foto{
+    margin-left: 200px;
+}
+.buttons{
+    display: flex;
+    width: 1200px;
+    height: 36px;
+    margin-top: -81px;
+    justify-content: flex-end;
+    
+}
+.text{
+    color: white;
+    width: 570px;
+    height: 100px;
+    margin-top: -218px;
+    margin-left: 522px;
+    
+}
+.albums{
+    height: 190px;
+    justify-content: space-between;
+    margin: 184px;
+    margin-top: 190px;
+    margin-left: 200px;
+}
+.names{
+    justify-content: space-between;
+    color: white;
+
+    
+}
+.hr{
+    margin: -174px;
+    
+}
+
+.mba{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 190px;
+}
