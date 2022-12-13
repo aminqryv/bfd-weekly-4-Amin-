@@ -1,37 +1,9 @@
-.foto{
-    margin-left: 200px;
-}
-.buttons{
-    display: flex;
-    width: 1200px;
-    height: 36px;
-    margin-top: -81px;
-    justify-content: flex-end;
-    
-}
+
 .text{
     color: white;
     width: 570px;
     height: 100px;
-    margin-top: -218px;
-    margin-left: 522px;
-    
-}
-.albums{
-    height: 190px;
-    justify-content: space-between;
-    margin: 184px;
-    margin-top: 190px;
-    margin-left: 200px;
-}
-.names{
-    justify-content: space-between;
-    color: white;
 
-    
-}
-.hr{
-    margin: -174px;
     
 }
 
@@ -39,5 +11,80 @@
     display: flex;
     justify-content: center;
     color: white;
-    margin-top: 190px;
+}
+.albums{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-left: 204px;
+    padding-right: 204px;
+    margin-top: 65px;
+
+    
+}
+.foto{
+    justify-content: flex-start;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+@media (min-width:361px)  and (max-width:1326px) {
+    .navbar{
+        display: block !important;
+        text-align: center;
+    }
+
+    .buttons{
+        display: block !important;
+    }
+
+    .main{
+        display: block !important;
+        margin-left: 0px !important;
+        text-align: center !important;
+
+    }
+    .mainphoto{
+
+        margin-left: 0px !important;
+    }
+    .starboy{
+        text-align: center;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+
+        
+    }
+    
+    .albums{
+        display: block !important;
+        margin-left: -130px;
+    }
+    
+    .maintexttitle{
+        margin-right: 0px !important;
+    }
+    .text{
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+    .afterhouseh{
+        margin-left: 70px;
+    }
+    .kisslandh{
+        margin-left: 70px;
+    }
+    .trilogyh{
+        margin-left: 70px;
+    }
+    .bbtmh{
+        margin-left: 70px;
+    }
+    .mydearh{
+        margin-left: 70px;
+    }
 }
